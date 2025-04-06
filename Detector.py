@@ -2,6 +2,9 @@ import cv2
 from time import time
 from PIL import Image
 from tkinter import messagebox
+import os
+
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'  # Suppress TensorFlow warnings
 
 def main_app(name, timeout = 5):
         

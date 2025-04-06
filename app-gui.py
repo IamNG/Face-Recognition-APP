@@ -174,14 +174,14 @@ class PageThree(tk.Frame):
 
     def capimg(self):
         self.numimglabel.config(text=str("Captured Images = 0 "))
-        messagebox.showinfo("INSTRUCTIONS", "We will Capture 300 pic of your Face.")
+        messagebox.showinfo("INSTRUCTIONS", "We will Capture 100 pic of your Face.")
         x = start_capture(self.controller.active_name)
         self.controller.num_of_images = x
         self.numimglabel.config(text=str("Number of images captured = "+str(x)))
 
     def trainmodel(self):
-        if self.controller.num_of_images < 300:
-            messagebox.showerror("ERROR", "Not enough Data, Capture at least 300 images!")
+        if self.controller.num_of_images < 100:
+            messagebox.showerror("ERROR", "Not enough Data, Capture at least 100 images!")
             return
         train_classifer(self.controller.active_name)
         messagebox.showinfo("SUCCESS", "The model has been successfully trained!")

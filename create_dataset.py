@@ -31,7 +31,7 @@ def start_capture(name):
             except :
 
                 pass
-            if key == ord("q") or key == 27 or num_of_images > 300: #take 300 frames
+            if key == ord("q") or key == 27 or num_of_images > 100: #take 100 frames
                 break
         cv2.destroyAllWindows()
         return num_of_images
@@ -71,7 +71,7 @@ def take_video(name, video):
         except :
 
             pass
-        if key == ord("q") or key == 27 or num_of_images > 300: #take 300 frames
+        if key == ord("q") or key == 27 or num_of_images > 100: #take 100 frames
             break
     vid.release()
     cv2.destroyAllWindows()
