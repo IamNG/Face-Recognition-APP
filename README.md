@@ -57,5 +57,5 @@ A webcam window will popup and start recognition proccess<br>
 
 <!-- Made By ❤ : [JoeVenner](mailto:ylafrimi@gmail.com)<br> -->
 
-Updated By : [IamNG](mailto:amanagnihotri6@gmail.com)<br]
-**Free Software, Hell Yeah!**
+Updated By : [IamNG](mailto:amanagnihotri6@gmail.com)<br>
+**Enjoy!**
